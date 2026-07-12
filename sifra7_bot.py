@@ -946,7 +946,7 @@ async def handle_callback(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         await query.edit_message_text("🌍 <b>Select a Country:</b>", parse_mode="HTML",
                                       reply_markup=InlineKeyboardMarkup(buttons))
 
-    elif data.startswith("country:"):"
+    elif data.startswith("country:"):
         country  = data.split(":", 1)[1]
         services = get_services_by_country(country)
         if not services:
