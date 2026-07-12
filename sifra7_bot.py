@@ -924,10 +924,8 @@ async def handle_callback(update: Update, ctx: ContextTypes.DEFAULT_TYPE):
         ctx.user_data.pop("upload_service", None)
         ctx.user_data.pop("bank_name", None)
         await query.edit_message_text(
-            "🏠 <b>Main Menu</b>
-
-Choose an option:",
-            parse_mode="HTML"
+    "🏠 <b>Main Menu</b>\n\nChoose an option:",
+    parse_mode="HTML"
         )
         await ctx.bot.send_message(
             user_id, "🏠 Back to main menu.",
