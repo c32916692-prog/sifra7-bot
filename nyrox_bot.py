@@ -24,7 +24,7 @@ from telegram.ext import (
 #  CONFIG
 # ============================================================
 
-BOT_TOKEN        = ""   # ← Add your token here
+BOT_TOKEN        = "8706326366:AAH3ltbkml39u6jY-1u9uJMtYirqwXu5zko"   # ← Add your token here
 ADMIN_ID         = 6572004742
 ADMIN_IDS        = (ADMIN_ID,)
 GROUP_CHAT_ID    = -1004205950683
