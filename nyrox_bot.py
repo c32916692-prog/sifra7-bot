@@ -767,7 +767,7 @@ async def start_polling(bot):
                 await process_and_forward(bot, sms)
                 new_count += 1
 
-            cutoff = datetime.now() - timedelta(hours=4)
+            cutoff = datetime.now() - timedelta(hours=24)
             _processed = {k: v for k, v in _processed.items() if v > cutoff}
             if new_count: logger.info(f"✅ Forwarded {new_count} new SMS")
             else: logger.info("⏭ No new SMS")
