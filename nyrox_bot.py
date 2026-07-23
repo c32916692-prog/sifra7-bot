@@ -48,7 +48,7 @@ APIS_A = [
 ]
 # Format B — uses dt1/dt2 + num/cli fields
 APIS_B = [
-    {"name": "MBC",   "url": "https://mbcs-ms.com/crapi/mbc/viewstats",     "token": "fzLDmdiz7w2WJUMJWFGMyE6Ks35sG0b2etKq4CdQHqs"},
+    {"name": "MBC",   "url": "https://mbcs-ms.com/crapi/mbc/viewstats",     "token": "fzLDmdiz7w2WJUMJWFGKs35sG0b2etKq4CdQHqs"},
     {"name": "LAMIX", "url": "http://51.77.216.195/crapi/lamix/viewstats",   "token": "hGKUZ0NfdFeFgWFZVX-Xel11d0OJdI9kZ25uVX5TgoU="},
 ]
 
